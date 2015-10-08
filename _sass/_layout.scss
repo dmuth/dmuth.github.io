@@ -18,6 +18,22 @@
     }
 }
 
+.site-title-background {
+	margin-top: 10px;
+	background-image: url('/assets/img/cheetah.jpg');
+	background-position: top 0px left 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+
+.site-title-name {
+	padding-left: 10px;
+	display: table-cell; 
+	vertical-align: top; 
+	height: 300px;
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
