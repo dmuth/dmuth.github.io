@@ -12,4 +12,13 @@ layout: default
     {{ content }}
   </article>
 
+
+{% comment %} Our tags go here {% endcomment %}
+{% assign tags = "" %}
+{% for tag in page.tags |sort %}
+{% capture tags %}{{ tags }} <a href="/tags">{{ tag | replace: ",", "" }}</a>{% endcapture %}
+{% endfor %}
+
+Tags: {{ tags }}
+
 </div>
