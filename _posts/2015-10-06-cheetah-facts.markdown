@@ -3,6 +3,7 @@ layout: post
 title:  Cheetah Facts
 categories: info
 tags: cheetahs, facts
+comments: true
 ---
 
 The cheetah is of the big cat family that lives in most parts of Africa and some parts of Iran. It is recorded as the fastest land animal in the world. It has the ability of reaching a speed of up to 113km/h. They can accelerate from 0 to 100km/h within 3 seconds. They can likewise be recognized from other wild cats by their smaller size, spotted coats, little heads and ears and unmistakable "tear stripes" that extend from the eye's side to the nose's side.
