@@ -1,5 +1,19 @@
 <header class="site-header">
 
+{% comment %}Facebook Like Button Javascript{% endcomment %}
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=642747145764500";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+{% comment %}Google PlusOne Javascript{% endcomment %}
+<script src="//apis.google.com/js/platform.js" async defer></script>
+
+
   <div class="wrapper">
 
 <div class="site-title-background">
@@ -9,7 +23,6 @@
 	</div>
 
 </div>
-
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -26,7 +39,9 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+
       </div>
+
     </nav>
 
   </div>
