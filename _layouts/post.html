@@ -17,7 +17,6 @@ layout: default
     {{ content }}
   </article>
 
-
 {% comment %} Our tags go here {% endcomment %}
 {% assign tags = "" %}
 {% for tag in page.tags |sort %}
@@ -26,4 +25,7 @@ layout: default
 
 Tags: {{ tags }}
 
+{% include comments.html %}
+
 </div>
+
