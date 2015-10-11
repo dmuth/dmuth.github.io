@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Cheetah - A Furious Beast
-categories: info
+categories: details
 tags: cheetahs, facts
 ---
 

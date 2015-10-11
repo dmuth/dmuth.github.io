@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Cheetah Facts
-categories: info
+categories: details
 tags: cheetahs, facts
 ---
 
