@@ -16,4 +16,6 @@ github_username:  dmuth
 #
 markdown: kramdown
 
+sass:
+  style: compressed
 
