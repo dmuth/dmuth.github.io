@@ -1,4 +1,4 @@
 
-This repo holds the source my website [All About Cheetahs](http://www.AllAboutCheetahs.info/).
+This repo holds the source for my website [All About Cheetahs](http://www.AllAboutCheetahs.info/).
 
 
