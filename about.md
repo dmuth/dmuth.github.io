@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
+{% include social-media-buttons.html %}
+<br/>
+
 This is my latest project: a website full of information about cheetahs, 
 the most photogenic of all the big cats!
 
