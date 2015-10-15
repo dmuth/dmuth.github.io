@@ -18,12 +18,30 @@
     }
 }
 
-.site-title-background {
-	margin-top: 10px;
-	background-image: url('/assets/img/title-cheetah.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 400px;
+/**
+* Make the background shorter on shorter devices.
+*/
+@media (max-height: 800px) {
+	.site-title-background {
+		margin-top: 10px;
+		background-image: url('/assets/img/title-cheetah.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 200px;
+	}
+}
+
+/**
+* ...and longer on longer devices!
+*/
+@media (min-height: 801px) {
+	.site-title-background {
+		margin-top: 10px;
+		background-image: url('/assets/img/title-cheetah.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 400px;
+	}
 }
 
 .site-title-name {
