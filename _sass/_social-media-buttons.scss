@@ -2,17 +2,15 @@
 * Social media buttons.
 */
 ul.like-buttons {
-/*
-*/
 	float: left;
 	list-style: none;
 	margin: 0px 0 20px 0;
 	padding: 0;
 	width: 100%;
+	display: none;
 }
 
 ul.like-buttons li {
-    display: block;
     float: left;
     margin-right: 10px;
 	height: 25px;
@@ -30,6 +28,15 @@ li.fb-like {
 li.twitter-like {
     margin-top: 4px;
 	width: 100px;
+}
+
+/**
+* Only display these when we're 600 pixels wide. (for now...)
+*/
+@media (min-width: 600px) {
+	ul.like-buttons {
+		display: block;
+	}
 }
 
 
