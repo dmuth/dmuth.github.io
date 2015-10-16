@@ -10,8 +10,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.AllAboutCheetahs.info" # the base hostname & protocol for your site
 #twitter_username: dmuth
 github_username:  dmuth
-youtube_channel_name: All About Cheetahs
-youtube_channel_id: UCWSg1RmUZwwEf6UPF-_tvJA
+#youtube_channel_name: All About Cheetahs
+#youtube_channel_id: UCWSg1RmUZwwEf6UPF-_tvJA
 
 #
 # Build settings
