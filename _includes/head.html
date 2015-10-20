@@ -14,7 +14,7 @@
 
 
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} #CheetahFacts" />
-<meta property="og:url" content="{{site.url}}{{page.url}}" />
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
 {% if page.description %}
 <meta property="og:description" content="{{ page.description | strip_newlines }}" />
@@ -33,7 +33,7 @@
 {% endif %}
 
 
-<meta name="twitter:url" content="{{site.url}}{{page.url}}" />
+<meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
 {% if page.description %}
 <meta name="twitter:description" content="{{ page.description | strip_newlines }}" />
