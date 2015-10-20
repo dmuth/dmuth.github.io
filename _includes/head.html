@@ -10,5 +10,27 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 	<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="author" href="https://plus.google.com/u/0/+DouglasMuth/posts" />
+
+
+{% if page.url == "/index.html" %}
+<meta property="og:image" content="{{site.url}}/assets/img/title-cheetah.jpg" />
+{% elsif page.image %}
+<meta property="og:image" content="{{site.url}}/assets/img/{{page.image}}" />
+{% endif %}
+<meta property="og:url" content="{{site.url}}{{page.url}}" />
+<meta property="og:description" content="{{ page.content | strip_html | truncatewords:30 }}" />
+
+<meta name="twitter:url" content="{{site.url}}{{page.url}}" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} #CheetahFacts" />
+<meta name="twitter:description" content="{{ page.content | strip_html | truncatewords:30 }}" />
+{% if page.url == "/index.html" %}
+<meta name="twitter:image" content="{{site.url}}/assets/img/title-cheetah.jpg" />
+{% elsif page.image %}
+<meta property="twitter:image" content="{{site.url}}/assets/img/{{page.image}}" />
+{% endif %}
+
+
+
 
 </head>
