@@ -2,6 +2,10 @@
 layout: page
 title: About
 permalink: /about/
+description: > 
+  This is my latest project: a website full of information about cheetahs, 
+  the most photogenic of all the big cats!
+
 ---
 
 {% include social-media-buttons.html %}
