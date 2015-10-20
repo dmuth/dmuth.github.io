@@ -2,7 +2,7 @@
 layout: post
 title:  "How Cheetahs Hunt For Food"
 categories: details
-date:   2020-10-19
+date:   2015-10-19
 tags: cheetahs, facts, hunting, food
 name: test2
 image: "cheetah-nuzzling-gazelle.jpg" 
