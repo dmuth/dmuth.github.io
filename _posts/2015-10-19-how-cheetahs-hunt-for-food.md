@@ -4,11 +4,14 @@ title:  "How Cheetahs Hunt For Food"
 categories: details
 date:   2020-10-19
 tags: cheetahs, facts, hunting, food
+name: test2
+image: "cheetah-nuzzling-gazelle.jpg" 
+image-caption: "\"I wish I knew how to quit you!\""
 ---
 
 This is an obvious truth that herbivores envy carnivores like cheetahs that enjoy their food without being eaten unlike the herbivores. While most cats are nocturnal predators, the cheetah is primarily diurnal, hunting in early morning and late afternoon. Since it depends on sight rather than smell, it likes to scan the wild from a tree limb or the top of a termite mound. Other big cats chase only a few hundred meters: the cheetah chases 3.4 miles (5500 meters) at an average speed of 45 miles per hour (72 kilometers per hour). The energy cheetahs spend on going after their prey make one wonder if they do gain the energy after the feed. However, cheetahs have a very refined approach to hunting probably to avoid being unsuccessful.
 
-{% include post-image.html img="cheetah-nuzzling-gazelle.jpg" caption="\"I wish I knew how to quit you!\"" %}
+{% include post-image.html img=page.image caption=page.image-caption %}
 
 
 <h2>Spotting Prey</h2>

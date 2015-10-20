@@ -3,11 +3,13 @@ layout: post
 title:  Cheetah Fact Sheet
 categories: details
 tags: cheetahs, facts
+image: "cheetahs2.jpg"
+image-caption: "A cheetah mother and her cubs."
 ---
 
 The Cheetah is a marvellous animal, categorized by a slender body, a long tail, a fur coat with black spots. Cheetahs are widely acknowledged as the fastest animals on land. Their narrow body and long legs enable them to run at a great speed which makes them a true marvel of evolution. They belong to a unique genus, Acinonyx, and, are the only living species belonging to this genus. 
 
-{% include post-image.html img="cheetahs2.jpg" caption="A cheetah mother and her cubs." %}
+{% include post-image.html img=page.image caption=page.image-caption %}
 
 <h2>Overview</h2>
 Cheetahs are a part of a subfamily known as Felinae within the larger, Felidae family. Some other members include the domestic cat, jaguarondi, lynx and cougar. The members of this cat family are smaller as compared to some of the “big cats” like lion, tiger, leopard and jaguar belonging to another subfamily known as Pantherinae.  
