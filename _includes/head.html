@@ -14,15 +14,16 @@
 
 
 <meta property="og:url" content="{{site.url}}{{page.url}}" />
-{% if page.url == "/index.html" %}
-<meta property="og:image" content="{{site.url}}/assets/img/title-cheetah.jpg" />
-{% else %}
 
 {% if page.description %}
 <meta property="og:description" content="{{ page.description | strip_newlines }}" />
 {% else %}
 <meta property="og:description" content="{{ page.content | strip_html | truncatewords:30 }}" />
 {% endif %}
+
+{% if page.url == "/index.html" %}
+<meta property="og:image" content="{{site.url}}/assets/img/title-cheetah.jpg" />
+{% else %}
 
 {% if page.image %}
 <meta property="og:image" content="{{site.url}}/assets/img/{{page.image}}" />
@@ -32,17 +33,18 @@
 
 
 <meta name="twitter:url" content="{{site.url}}{{page.url}}" />
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} #CheetahFacts" />
-{% if page.url == "/index.html" %}
-<meta name="twitter:image" content="{{site.url}}/assets/img/title-cheetah.jpg" />
-
-{% else %}
 
 {% if page.description %}
 <meta name="twitter:description" content="{{ page.description | strip_newlines }}" />
 {% else %}
 <meta name="twitter:description" content="{{ page.content | strip_html | truncatewords:30 }}" />
 {% endif %}
+
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} #CheetahFacts" />
+{% if page.url == "/index.html" %}
+<meta name="twitter:image" content="{{site.url}}/assets/img/title-cheetah.jpg" />
+
+{% else %}
 
 {% if page.image %}
 <meta property="twitter:image" content="{{site.url}}/assets/img/{{page.image}}" />
