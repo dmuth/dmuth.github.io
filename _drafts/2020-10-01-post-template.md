@@ -8,3 +8,5 @@ tags: cheetahs, facts
 
 Content goes here
 
+{% include post-image.html img="cheetah.jpg" caption="Caption goes here" %}
+
