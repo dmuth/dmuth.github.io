@@ -33,7 +33,10 @@
 {% endif %}
 
 
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@dmuth" />
 <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} #CheetahFacts" />
 
 {% if page.description %}
 <meta name="twitter:description" content="{{ page.description | strip_newlines }}" />
@@ -41,7 +44,6 @@
 <meta name="twitter:description" content="{{ page.content | strip_html | truncatewords:30 }}" />
 {% endif %}
 
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} #CheetahFacts" />
 {% if page.url == "/index.html" %}
 <meta name="twitter:image" content="{{site.url}}/assets/img/title-cheetah.jpg" />
 
