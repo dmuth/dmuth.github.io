@@ -26,11 +26,18 @@
 <meta property="og:image" content="{{site.url}}/assets/img/title-cheetah.jpg" />
 {% else %}
 
+{% comment %} If we have an image on the page, tell Facebook about it.  {% endcomment %}
 {% if page.image %}
 <meta property="og:image" content="{{site.url}}/assets/img/{{page.image}}" />
 {% endif %}
 
+{% comment %} If we have a YouTube video on the page, tell Facebook about it.  {% endcomment %}
+{% if page.video %}
+<meta property="og:video" content="https://www.youtube.com/v/{{page.video}}" />
 {% endif %}
+
+{% endif %}
+
 
 
 {% if page.image or page.url == "/index.html" %}
