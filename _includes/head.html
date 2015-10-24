@@ -64,6 +64,11 @@
 <meta property="twitter:image" content="{{site.url}}/assets/img/{{page.image}}" />
 {% endif %}
 
+{% comment %} If we have a YouTube video on the page, tell Facebook about it.  {% endcomment %}
+{% if page.video %}
+<meta property="twitter:player:stream" content="https://www.youtube.com/v/{{page.video}}" />
+{% endif %}
+
 {% endif %}
 
 
