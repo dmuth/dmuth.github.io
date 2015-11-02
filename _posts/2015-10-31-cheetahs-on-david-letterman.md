@@ -4,11 +4,12 @@ title:  "[VIDEO] A Cheetah on Late Night with David Letterman"
 categories: videos
 date:   2015-10-31
 tags: video, cheetahs
+video: g67e0hDT1oQ
 ---
 
 A cheetah once made an appearance on Daivd Letterman's show and sat on his desk!
 
-{% include video-youtube.html id="g67e0hDT1oQ" %}
+{% include video-youtube.html id=page.video %}
 <br/>
 
 The amazingly awesome Jack Hanna then goes on to explain how the Anatolian Shephard
