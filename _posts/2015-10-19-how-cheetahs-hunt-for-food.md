@@ -4,7 +4,6 @@ title:  "How Cheetahs Hunt For Food"
 categories: details
 date:   2015-10-19
 tags: cheetahs, facts, hunting, food
-name: test2
 image: "cheetah-nuzzling-gazelle.jpg" 
 image-caption: "\"I wish I knew how to quit you!\""
 ---
