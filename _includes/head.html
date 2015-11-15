@@ -22,7 +22,7 @@
 <meta property="og:description" content="{{ page.content | strip_html | truncatewords:30 }}" />
 {% endif %}
 
-{% if page.url == "/index.html" %}
+{% if page.url == "/index.html" or page.url == "/" %}
 <meta property="og:image" content="{{site.url}}/assets/img/title-cheetah.jpg" />
 {% else %}
 
@@ -55,7 +55,7 @@
 <meta name="twitter:description" content="{{ page.content | strip_html | truncatewords:30 }}" />
 {% endif %}
 
-{% if page.url == "/index.html" %}
+{% if page.url == "/index.html" or page.url == "/" %}
 <meta name="twitter:image" content="{{site.url}}/assets/img/title-cheetah.jpg" />
 
 {% else %}
