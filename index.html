@@ -19,7 +19,29 @@ description: Everything you'd ever want to know about cheetahs, the fastest of a
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
 
-		{{ post.content | strip_html | truncatewords:75 }}
+{% if post.image %} 
+<div style="float: left; display: block; ">
+<img src="/assets/img/{{post.image}}" width="200" />
+</div>
+
+{% else if post.video %}
+<div style="float: left; ">
+<img src="http://img.youtube.com/vi/{{post.video}}/0.jpg" width="200" />
+</div>
+
+{% endif %}
+
+
+{% comment %}
+Have this break only if we're on a mobile device.
+{% endcomment %}
+<br clear="both" class="mobile-break" />
+
+<div class="post-excerpt" >
+{{ post.content | strip_html | truncatewords:50 }}
+</div>
+
+<br clear="all" />
 
       </li>
     {% endfor %}

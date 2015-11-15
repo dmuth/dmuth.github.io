@@ -202,7 +202,15 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+		margin-bottom: $spacing-unit;
+
+		/**
+		Are we on a mobile?  If so, remove this bottom margin as it is unecessary.
+		*/
+		@media (max-width: $on-palm) {
+			margin-bottom: 0;
+		}
+
     }
 }
 
@@ -274,6 +282,7 @@
 	padding-top: 10px; 
 }
 
+
 @media (max-width: 600px) {
 
 	.post-image {
@@ -295,5 +304,32 @@
 
 }
 
+/**
+* If we're not on a mobile, hide the mobile break.
+*/
+@media (min-width: $on-palm) {
+	.mobile-break {
+		display: none;
+	}
+
+}
+
+/**
+* Handle positioning of the post excerpt.
+*/
+.post-excerpt {
+
+	/**
+	* This is relative to the parent element, so we have to account 
+	* the width of the image.
+	*/
+	padding-left: 210px;
+
+	@media (max-width: $on-palm) {
+		padding-left: 0px;
+		padding-top: 10px;
+	}
+
+}
 
 
