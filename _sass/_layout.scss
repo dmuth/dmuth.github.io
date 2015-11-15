@@ -297,7 +297,14 @@
 		float: none;
 		padding-left: 0px;
 		padding-bottom: 0px;
-		margin: auto;
+
+		/* Center this element */
+		margin-left: auto;
+		margin-right: auto;
+		
+		/* Eat up some of the space that the following p tag introduces.  */
+		margin-bottom: -30px;
+
 		width: 250px;
 
 	}
