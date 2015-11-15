@@ -8,7 +8,7 @@ description: >
 
 ---
 
-{% include social-media-buttons.html %}
+{% include addthis.html %}
 <br/>
 
 This is my latest project: a website full of information about cheetahs, 
