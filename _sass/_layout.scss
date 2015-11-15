@@ -283,26 +283,28 @@
 }
 
 
-@media (max-width: 600px) {
+.post-image {
 
-	.post-image {
-		margin-left: auto; 
-		margin-right: auto; 
-		width: 300px;
+	/* Regular view. */
+	float: right;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 300px;
+
+	/* Mobile view. */
+	@media (max-width: $on-palm) {
+
+		float: none;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		margin: auto;
+		width: 250px;
+
 	}
 
 }
 
-@media (min-width: 601px) {
 
-	.post-image {
-		float: right;
-		padding-left: 10px;
-		padding-bottom: 10px;
-		width: 300px;
-	}
-
-}
 
 /**
 * If we're not on a mobile, hide the mobile break.
