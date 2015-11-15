@@ -3,7 +3,7 @@ layout: post
 title:  "[VIDEO] A Cheetah on Late Night with David Letterman"
 categories: videos
 date:   2015-10-31
-tags: video, cheetahs
+tags: cheetahs, video
 video: g67e0hDT1oQ
 ---
 

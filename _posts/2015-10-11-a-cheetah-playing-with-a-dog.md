@@ -2,7 +2,7 @@
 layout: post
 title:  "[VIDEO] A Cheetah Playing With His Friend The Dog"
 categories: videos
-tags: video, cheetahs, dog
+tags: cheetahs, dog, video
 video: "MzjOsDlGZbc"
 ---
 
