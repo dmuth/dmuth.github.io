@@ -34,6 +34,7 @@
 {% comment %} If we have a YouTube video on the page, tell Facebook about it.  {% endcomment %}
 {% if page.video %}
 <meta property="og:video" content="https://www.youtube.com/v/{{page.video}}" />
+<meta property="og:image" content="http://img.youtube.com/vi/{{page.video}}/0.jpg" />
 {% endif %}
 
 {% endif %}
@@ -68,6 +69,7 @@
 {% if page.video %}
 <meta property="twitter:player" content="https://www.youtube.com/embed/{{page.video}}" />
 <meta property="twitter:player:stream" content="https://www.youtube.com/embed/{{page.video}}" />
+<meta property="twitter:image" content="http://img.youtube.com/vi/{{page.video}}/0.jpg" />
 {% endif %}
 
 {% endif %}
