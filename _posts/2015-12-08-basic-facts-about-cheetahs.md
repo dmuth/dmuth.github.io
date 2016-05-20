@@ -65,7 +65,7 @@ A mother cheetah usually cares for anywhere from 2 to eight cubs per litter, how
 
 <h2>Not Just An Amusing Haircut</h2>
 
-Cheetah cubs have traditionally tall locks that work from their throat all the way down to the base of their end, which is known as the mantle. The mantle makes a cheetah cub look like a [honey badger](https://www.youtube.com/watch?v=4r7wHMg5Yjg) and also means they may be camoflage in large gras, which can help keep them safe from threats like lions and hyenas. (and the occasional drunken leopard)
+Cheetah cubs have traditionally tall locks that work from their throat all the way down to the base of their end, which is known as the mantle. The mantle makes a cheetah cub look like a [honey badger](https://www.youtube.com/watch?v=4r7wHMg5Yjg) and also means they may be camoflaged in tall grass, which can help keep them safe from threats like lions and hyenas. (and the occasional drunken leopard)
 
 
 
