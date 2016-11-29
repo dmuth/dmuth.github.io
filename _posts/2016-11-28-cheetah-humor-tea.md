@@ -11,3 +11,5 @@ Cheetahs think tea is pretty funny.
 
 {% include image.html img="cheetah-humor-tea.jpg" caption="I LOLed." %}
 
+[<a href="http://www.furaffinity.net/view/12050274/">Source</a>]
+
