@@ -3,7 +3,7 @@ layout: post
 title:  "[VIDEO] Cheetah trying to act angry"
 categories: videos
 date:   2015-12-10
-tags: video, cheetahs
+tags: cheetahs, video
 video: lNmVBFnmDmU
 ---
 
