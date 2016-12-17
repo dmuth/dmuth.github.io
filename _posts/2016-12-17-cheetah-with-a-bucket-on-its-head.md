@@ -4,7 +4,7 @@ title: "[VIDEO] A Cheetah With A Bucket On Its Head"
 categories: videos
 date:   2016-12-17
 video: ZgfrBvErRC8
-tags: video, cheetahs
+tags: cheetahs, video
 ---
 
 {% include video-youtube.html id="ZgfrBvErRC8" %}
