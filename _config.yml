@@ -2,10 +2,11 @@
 #
 # Site settings
 #
-title: All About Cheetahs!
+title: Cheetah Facts
 email: CheetahsBeLike@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Everything you'd ever want to know about cheetahs. 
+  All About Cheetahs, and Cheetah Facts!
+  Everything that's fit to print about spotcats!
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.AllAboutCheetahs.info" # the base hostname & protocol for your site
